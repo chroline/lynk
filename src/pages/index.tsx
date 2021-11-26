@@ -18,6 +18,7 @@ const components = {
   h1: createHeadingComponent(1),
   h2: createHeadingComponent(2),
   h3: createHeadingComponent(3),
+  a: props => <a target={"_blank"} {...props} />,
 
   ..._components,
 };
@@ -49,7 +50,7 @@ export default function Home({ source }: _Props) {
       <NextSeo {...seo} />
       <div className={"wrapper"}>
         <div className={"content"}>
-          <div className={"lynk-instance"}>
+          <div id={"lynk-instance"}>
             <MDXRemote {...source} components={components} />
           </div>
           <Credits />

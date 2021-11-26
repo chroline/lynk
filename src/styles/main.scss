@@ -34,6 +34,40 @@ html, body, #__next {
   width: 100%;
 }
 
+#lynk-instance {
+  display: inline-block;
+
+  p {
+    line-height: 1.3rem;
+    padding: 0 2rem;
+    margin-bottom: 0.75rem;
+  }
+
+  li {
+    padding-left: 2rem;
+    position: relative;
+
+    &::before {
+      content: "•";
+      font-size: 1.25rem;
+      position: absolute;
+    }
+
+    p {
+      padding-left: 1.25rem;
+    }
+  }
+
+  strong {
+    font-weight: 600;
+  }
+
+  a:not(.btn) {
+    opacity: 0.8;
+    color: currentColor;
+  }
+}
+
 hr {
   border: none;
   height: 1px;
