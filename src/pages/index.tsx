@@ -2,8 +2,10 @@ import matter from "gray-matter";
 import { GetStaticProps } from "next";
 import { MDXRemote, MDXRemoteSerializeResult } from "next-mdx-remote";
 import { serialize } from "next-mdx-remote/serialize";
+import { NextSeo } from "next-seo";
 
 import _components from "data/components";
+import seo from "data/seo.json";
 import { Button } from "src/components/Button";
 import Credits from "src/components/Credits";
 import createHeadingComponent from "src/components/Heading";
@@ -43,14 +45,17 @@ export const getStaticProps: GetStaticProps = async ({}) => {
 
 export default function Home({ source }: _Props) {
   return (
-    <div className={"wrapper"}>
-      <div className={"content"}>
-        <div className={"lynk-instance"}>
-          <MDXRemote {...source} components={components} />
+    <>
+      <NextSeo {...seo} />
+      <div className={"wrapper"}>
+        <div className={"content"}>
+          <div className={"lynk-instance"}>
+            <MDXRemote {...source} components={components} />
+          </div>
+          <Credits />
         </div>
-        <Credits />
+        <style jsx global>{``}</style>
       </div>
-      <style jsx global>{``}</style>
-    </div>
+    </>
   );
 }

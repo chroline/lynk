@@ -7,6 +7,7 @@
   },
   "devDependencies": {
     "@trivago/prettier-plugin-sort-imports": "^3.1.1",
+    "@types/next-seo": "^2.1.2",
     "@types/react": "^17.0.37",
     "@types/react-icons": "^3.0.0",
     "@types/tinycolor2": "^1.4.3",
@@ -19,6 +20,7 @@
     "next": "^11.1.2",
     "next-mdx-remote": "^3.0.8",
     "next-plugin-preact": "^3.0.3",
+    "next-seo": "^4.28.1",
     "preact": "^10.5.5",
     "preact-render-to-string": "^5.1.11",
     "react": "npm:@preact/compat",
