@@ -1,0 +1,21 @@
+.img:first-of-type {
+  height: 10rem;
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 0.75rem;
+  position: relative;
+
+  > div {
+    height: 10rem;
+    width: 10rem;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05), 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    border-radius: 50%;
+
+    left: 50% !important;
+    transform: translateX(-50%);
+
+    img {
+      border-radius: 50%;
+    }
+  }
+}
