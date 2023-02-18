@@ -1,7 +1,4 @@
-const withPreact = require("next-plugin-preact");
-
-module.exports = withPreact({
-  webpack5: true,
+module.exports = {
   webpack: config => {
     config.module.rules.push(
       {
@@ -16,4 +13,4 @@ module.exports = withPreact({
 
     return config;
   },
-});
+};
