@@ -1,6 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
 
-html, body {
-  background: linear-gradient(135deg, #1E88E5 0%, #14BB75 100%);
+html,
+body {
+  background: url("../public/background.png");
+  background-size: cover;
+  background-position: center;
   color: #fff;
 }
