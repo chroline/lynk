@@ -38,7 +38,7 @@ export const Button: React.FC<ButtonProps> = ({
 
   return (
     <>
-      <a className={clsx("btn", sm && "sm")} href={href} target={"_blank"}>
+      <a className={clsx("btn", sm && "sm")} href={href} rel="noopener noreferrer" target={"_blank"}>
         {icon && <div className={"icon"}>{icon}</div>}
         {children}
       </a>
@@ -56,7 +56,7 @@ export const Button: React.FC<ButtonProps> = ({
         }
 
         a:hover {
-          background: ${!muted ? tinycolor(rawColor).darken(5).toString() : dark ? "#f3f4f6" : "#1f2937"};
+          background: ${!muted ? tinycolor(rawColor).darken(8).toString() : dark ? "#d9d9d9" : "#1f2937"};
           color: ${muted
             ? rawColor
             : tinycolor(dark ? "white" : "black")

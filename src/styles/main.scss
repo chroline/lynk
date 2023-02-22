@@ -9,7 +9,9 @@ html {
   font-size: 16px;
 }
 
-html, body, #__next {
+html,
+body,
+#__next {
   height: 100%;
   width: 100%;
   margin: 0;
@@ -40,7 +42,6 @@ html, body, #__next {
   p {
     line-height: 1.3rem;
     padding: 0 2rem;
-    margin-bottom: 0.75rem;
   }
 
   li {

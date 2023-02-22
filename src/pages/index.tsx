@@ -1,6 +1,6 @@
 import matter from "gray-matter";
-import { GetStaticProps } from "next";
-import { MDXRemoteSerializeResult } from "next-mdx-remote";
+import type { GetStaticProps } from "next";
+import type { MDXRemoteSerializeResult } from "next-mdx-remote";
 import { serialize } from "next-mdx-remote/serialize";
 import { NextSeo } from "next-seo";
 
@@ -14,9 +14,9 @@ interface _Props {
 }
 
 export const getStaticProps: GetStaticProps = async ({}) => {
-  // @ts-ignore
-  const _content = (await import("data/content.mdx")).default;
-
+  // The @types/mdx type conflicts here - it assumes this outputs a React component
+  // but it actually outputs a string.
+  const _content = (await import("data/content.mdx")).default as unknown as string;
   const { content, data } = matter(_content);
 
   const source = await serialize(content, {

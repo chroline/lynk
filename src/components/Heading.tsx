@@ -1,6 +1,6 @@
-import React from "react";
+import React, { type ReactNode } from "react";
 
-export const Heading: React.FC<{ level: 1 | 2 | 3 | 4 | 5 | 6 }> = ({ level, children }) => {
+export const Heading: React.FC<{ children: ReactNode; level: 1 | 2 | 3 | 4 | 5 | 6 }> = ({ level, children }) => {
   switch (level) {
     case 1:
       return (

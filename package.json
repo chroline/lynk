@@ -13,26 +13,26 @@
     }
   ],
   "devDependencies": {
-    "@svgr/webpack": "^5.5.0",
-    "@trivago/prettier-plugin-sort-imports": "^3.1.1",
-    "@types/next-seo": "^2.1.2",
+    "@svgr/webpack": "6.5.1",
+    "@trivago/prettier-plugin-sort-imports": "4.0.0",
+    "@types/next-seo": "2.1.2",
     "@types/node": "18.14.0",
-    "@types/react": "^17.0.37",
-    "@types/react-icons": "^3.0.0",
-    "@types/tinycolor2": "^1.4.3",
-    "prettier": "^2.5.0",
-    "typescript": "^4.5.2"
+    "@types/react": "18.0.28",
+    "@types/react-icons": "3.0.0",
+    "@types/tinycolor2": "1.4.3",
+    "prettier": "2.8.4",
+    "typescript": "4.9.5"
   },
   "dependencies": {
-    "clsx": "^1.1.1",
-    "gray-matter": "^4.0.3",
-    "next": "^13.1.6",
-    "next-mdx-remote": "^3.0.8",
-    "next-seo": "^4.28.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-icons": "^4.3.1",
-    "sass": "^1.43.5",
-    "tinycolor2": "^1.4.2"
+    "clsx": "1.2.1",
+    "gray-matter": "4.0.3",
+    "next": "13.1.6",
+    "next-mdx-remote": "4.3.0",
+    "next-seo": "5.15.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "4.7.1",
+    "sass": "1.58.3",
+    "tinycolor2": "1.6.0"
   }
 }
