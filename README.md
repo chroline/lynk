@@ -24,7 +24,7 @@ preferences.
 
 - **MDX**, for adding interactive content
 - **Next.js**, to enable SSG for lightning-fast load times
-  - **`next-seo`**, to enrich your site with SEO
+  - [**`next-seo`**](https://github.com/garmeeh/next-seo), to enrich your site with SEO
 - **SCSS**, for customizing the look of your site
 - **Typescript**, because it's 2023
 
@@ -62,4 +62,4 @@ improvements to the project and contributions from open-source developers are gr
 # 📄 License
 
 **lynk** is free and open-source software licensed under the MIT License.
-[View the full license](https://github.com/chroline/handydocs/blob/main/LICENSE)
+[View the full license](https://github.com/chroline/lynk/blob/main/LICENSE)
