@@ -35,7 +35,7 @@ Thanks for checking out the project, and happy coding!
 ### _Easy as 1, 2, 3!_
 
 1. Fork the [`chroline/lynk`](https://github.com/chroline/lynk) template repo. This will give you a blank canvas for
-   your HandyDocs instance. (Or, use [`degit`](https://github.com/Rich-Harris/degit) to scaffold your project by running
+   your lynk instance. (Or, use [`degit`](https://github.com/Rich-Harris/degit) to scaffold your project by running
    `degit chroline/lynk`)
 2. Clone your forked repo to your local machine.
 
@@ -56,7 +56,7 @@ In-depth documentation is coming soon! For now, check out the example in the tem
 
 # 🧑‍💻 Contributing
 
-Interested in contributing to the HandyDocs project? Thanks so much for your interest! We are always looking for
+Interested in contributing to the lynk project? Thanks so much for your interest! We are always looking for
 improvements to the project and contributions from open-source developers are greatly appreciated.
 
 # 📄 License
