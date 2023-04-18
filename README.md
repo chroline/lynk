@@ -15,9 +15,9 @@
 
 # 🚀 Introduction
 
-**lynk** is an open-source, self-hosted link-in-bio clone! With lynk, developers can easily set up their own custom
+**lynk** is an open-source, self-hosted link-in-bio clone! With **lynk**, developers can easily set up their own custom
 link-in-bio page, allowing them to showcase their projects and promote their work in a single, easy to find location.
-lynk is fully customizable, allowing developers to tailor the look and feel of their page to their individual needs and
+**lynk** is fully customizable, allowing developers to tailor the look and feel of their page to their individual needs and
 preferences.
 
 **lynk** is powered by:
@@ -35,7 +35,7 @@ Thanks for checking out the project, and happy coding!
 ### _Easy as 1, 2, 3!_
 
 1. Fork the [`chroline/lynk`](https://github.com/chroline/lynk) template repo. This will give you a blank canvas for
-   your HandyDocs instance. (Or, use [`degit`](https://github.com/Rich-Harris/degit) to scaffold your project by running
+   your **lynk** instance. (Or, use [`degit`](https://github.com/Rich-Harris/degit) to scaffold your project by running
    `degit chroline/lynk`)
 2. Clone your forked repo to your local machine.
 
@@ -56,10 +56,18 @@ In-depth documentation is coming soon! For now, check out the example in the tem
 
 # 🧑‍💻 Contributing
 
-Interested in contributing to the HandyDocs project? Thanks so much for your interest! We are always looking for
+Interested in contributing to the **lynk** project? Thanks so much for your interest! We are always looking for
 improvements to the project and contributions from open-source developers are greatly appreciated.
 
-# 📄 License
+# ❤️ Support this project
 
-**lynk** is free and open-source software licensed under the MIT License.
-[View the full license](https://github.com/chroline/lynk/blob/main/LICENSE)
+If you want to say thank you and/or support active development of **lynk**:
+
+- Add a GitHub Star to the project!
+- Tweet about the project on your Twitter!
+  - Tag [@colegawin_](https://twitter.com/colegawin_) and mention **lynk**
+- Create your own **lynk** and share it with the interwebs!
+
+Thanks so much for your interest in supporting **lynk**!
+
+_**PS:** consider sponsoring me ([Cole Gawin](https://colegaw.in)) to continue the development of this project on [BuyMeACoffee](https://buymeacoffee.com/colegawin) :)_
