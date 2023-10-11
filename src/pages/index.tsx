@@ -36,7 +36,7 @@ export default function Home({ source }: _Props) {
           <div id={"lynk-instance"}>
             <Renderer>{source}</Renderer>
           </div>
-          <Credits />
+          {/* <Credits /> */}
         </div>
         <style jsx global>{``}</style>
       </div>
