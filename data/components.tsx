@@ -1,4 +1,4 @@
-import { AiFillInstagram } from "react-icons/ai";
+import { AiFillInstagram,AiFillAlert } from "react-icons/ai";
 import { FaSnapchatGhost } from "react-icons/fa";
 import { HiGlobeAlt, HiViewGrid, HiBookOpen } from "react-icons/hi";
 import { MdAttachMoney } from "react-icons/md";
@@ -15,4 +15,5 @@ export default {
   RiLinkedinBoxFill,
   RiTwitterFill,
   RiAtFill,
+  AiFillAlert
 };
