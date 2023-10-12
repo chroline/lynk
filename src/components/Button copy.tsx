@@ -47,7 +47,7 @@ export const Button: React.FC<ButtonProps> = ({
       <style jsx>{`
         a {
           text-align: ${left ? "left" : "center"};
-          opacity : 1;
+          ${!bg ? "background: ${!muted ? rawColor : dark ? '#f9fafb' : '#111827'};" : ""}
           background: ${!muted ? rawColor : dark ? "#f9fafb" : "#111827"};
           color: ${muted
             ? rawColor

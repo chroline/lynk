@@ -32,3 +32,18 @@
   }
 }
 
+.btn2 {
+  display: flex;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+  width: 100%;
+  border: none;
+  border-radius: 6px;
+  padding: 1rem 3.5rem 1rem 3.5rem;
+  -webkit-tap-highlight-color: transparent;
+  text-decoration: none;
+  margin-bottom: 0.75rem;
+  position: relative;
+  text-align:center;
+}
+
